@@ -81,12 +81,12 @@ From the `Accounts` window click `Add` and the `Add Account` window opens:
 
 Complete the main form on the `Basic` tab:
 
-1. Protocol: select `XMPP`
-2. Username: enter your username (the part before the `@` sign from the complete user ID, for example `me` from the ID `me@somedomain.com`).
-3. Domain: enter the domain name from your ID (the part after the `@` sign, for example `somedomain.com` from the ID `me@somedomain.com`)
-4. Resource (optional): enter a name you would like to give to your current resource, such that multiple logins to the same XMPP account from different devices, can be distinguished if necessary. For example `Home PC` or `Smartphone`.
-5. Password: enter your account's password.
-6. Local alias (optional): this custom alias appears in chat logs and can be used to specify a shorter name for how your messages appear in local chat logs, so this is only visible to you. For example `Me`, instead of `your_complete_username`.
+1. **Protocol**: select `XMPP`
+2. **Username**: enter your username (the part before the `@` sign from the complete user ID, for example `me` from the ID `me@somedomain.com`).
+3. **Domain**: enter the domain name from your ID (the part after the `@` sign, for example `somedomain.com` from the ID `me@somedomain.com`)
+4. **Resource** (optional): enter a name you would like to give to your current resource, such that multiple logins to the same XMPP account from different devices, can be distinguished if necessary. For example `Home PC` or `Smartphone`.
+5. **Password**: enter your account's password.
+6. **Local alias** (optional): this custom alias appears in chat logs and can be used to specify a shorter name for how your messages appear in local chat logs, so this is only visible to you. For example `Me`, instead of `your_complete_username`.
 
 ### Log into an existing account
 
