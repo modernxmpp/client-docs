@@ -123,9 +123,9 @@ To add a new contact, click the **Buddies &rarr; Add Buddy...** menu item.
 On the `Add Buddy` window, complete the required fields:
 
 - **Account**: if you're logged in to multiple accounts, select which one to add your contact to.
-- **Buddy's username**: enter your contact's complete user ID. If he's using the same server as the currently selected account, you can omit the server name and enter just the user's name (only the part on the left of the `@` sign).
+- **Buddy's username**: enter your contact's complete user ID. If they're using the same server as the currently selected account, you can omit the server name and enter just the user name (only the part on the left of the `@` sign).
 - **Alias** (optional): enter an alias for your contact, if you prefer a shorter or more distinct name for your contact.
-- **Add buddy to group**: select an existing group from the dropdown list or enter a custom group name to create a new group to add this contact to.
+- **Add buddy to group**: select an existing group from the dropdown list or enter a new group name to create a new group for this contact.
 
 ![Add Buddy](img/add-buddy.png)
 
