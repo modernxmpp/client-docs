@@ -103,10 +103,11 @@ Tick the `Create this new account on the server` check mark at the bottom if you
 Finally, click the `Add` button and Pidgin should automatically log in your account.
 
 If successful, you should see an empty buddy list and your status set to `Available`.
-With some servers you can sometimes see a bot was added to your buddy list by default, usually to send you a welcome message or to provide help.
-To find out more about adding contacts to your buddy list, head to the [How to add a new contact](#how-to-add-a-new-contact) section.
 
 ![Buddy List](img/buddy-list.png)
+
+With some servers you can sometimes see a bot was added to your buddy list by default, usually to send you a welcome message or to provide help.
+To find out more about adding contacts to your buddy list, head to the [How to add a new contact](#how-to-add-a-new-contact) section.
 
 ### Log into an existing account
 
