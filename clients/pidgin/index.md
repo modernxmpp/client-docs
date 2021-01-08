@@ -73,7 +73,7 @@ When you first install Pidgin and start it, you are usually greeted with the `Ac
 
 ![Accounts window](img/accounts.png)
 
-If you've accidentally closed the `Accounts` window, open Pidgin's main window (check the tray if Pidgin is minimized and not showing on the task bar) and click the 'Accounts &rarr; Manage Accounts' menu item or press <kbd>Ctrl</kbd> + <kbd>A</kbd> on Windows.
+If you've accidentally closed the `Accounts` window, open Pidgin's main window (check the tray if Pidgin is minimized and not showing on the task bar) and click the **Accounts &rarr; Manage Accounts** menu item or press <kbd>Ctrl</kbd> + <kbd>A</kbd> on Windows.
 
 Registering new XMPP accounts is easy but it requires that you create the account with a server that allows open registrations.
 
@@ -116,7 +116,7 @@ Logging in to an existing account is similar to [registering a new account](#reg
 
 ### How to add a new contact
 
-To add a new contact, click the 'Buddies &rarr; Add Buddy...' menu item.
+To add a new contact, click the **Buddies &rarr; Add Buddy...** menu item.
 
 ![Add Buddy menu item](img/add-buddy-menu.png)
 
@@ -134,7 +134,7 @@ If your contact is online and has accepted to connect with you, you will see the
 If you don't see your contact, then read on.
 
 By default, Pidgin doesn't show empty groups and offline contacts, or contacts that haven't yet accepted for you to see their presence.
-If you want to check if the contact has indeed been added to your contacts list, click and enable the 'Buddies &rarr; Show &rarr; Offline Buddies' menu item.
+If you want to check if the contact has indeed been added to your contacts list, click and enable the **Buddies &rarr; Show &rarr; Offline Buddies** menu item.
 
 ![Show offline buddies menu item](img/show-offline-buddies-menu.png)
 
@@ -142,7 +142,7 @@ You should now see your new contact even if they're offline or haven't answered 
 
 ![Buddy List with offline buddies visible](img/buddy-list-with-offline-buddies-visible.png)
 
-Optionally, click and enable the 'Buddies &rarr; Show &rarr; Buddy Details' menu item to see if your contact hasn't authorized you yet or if they're just offline.
+Optionally, click and enable the **Buddies &rarr; Show &rarr; Buddy Details** menu item to see if your contact hasn't authorized you yet or if they're just offline.
 
 ![Buddy List with unauthorized presence](img/buddy-list-with-unauthorized-presence.png)
 
