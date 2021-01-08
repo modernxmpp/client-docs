@@ -116,7 +116,35 @@ Logging in to an existing account is similar to [registering a new account](#reg
 
 ### How to add a new contact
 
-To be continued...
+To add a new contact, click the 'Buddies &rarr; Add Buddy...' menu item.
+
+![Add Buddy menu item](img/add-buddy-menu.png)
+
+On the `Add Buddy` window, complete the required fields:
+
+- **Account**: if you're logged in to multiple accounts, select which one to add your contact to.
+- **Buddy's username**: enter your contact's complete user ID. If he's using the same server as the currently selected account, you can omit the server name and enter just the user's name (only the part on the left of the `@` sign).
+- **Alias** (optional): enter an alias for your contact, if you prefer a shorter or more distinct name for your contact.
+- **Add buddy to group**: select an existing group from the dropdown list or enter a custom group name to create a new group to add this contact to.
+
+![Add Buddy](img/add-buddy.png)
+
+Finally, click the `Add` button.
+If your contact is online and has accepted to connect with you, you will see their status in Pidgin's Buddy List.
+If you don't see your contact, then read on.
+
+By default, Pidgin doesn't show empty groups and offline contacts, or contacts that haven't yet accepted for you to see their presence.
+If you want to check if the contact has indeed been added to your contacts list, click and enable the 'Buddies &rarr; Show &rarr; Offline Buddies' menu item.
+
+![Show offline buddies menu item](img/show-offline-buddies-menu.png)
+
+You should now see your new contact even if they're offline or haven't answered your request to connect yet.
+
+![Buddy List with offline buddies visible](img/buddy-list-with-offline-buddies-visible.png)
+
+Optionally, click and enable the 'Buddies &rarr; Show &rarr; Buddy Details' menu item to see if your contact hasn't authorized you yet or if they're just offline.
+
+![Buddy List with unauthorized presence](img/buddy-list-with-unauthorized-presence.png)
 
 ### Start a chat with a contact
 
