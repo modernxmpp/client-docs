@@ -71,22 +71,39 @@ brew install pidgin
 
 When you first install Pidgin and start it, you are usually greeted with the `Accounts` window:
 
-![Pidgin Accounts window](img/accounts.png)
+![Accounts window](img/accounts.png)
 
 If you've accidentally closed the `Accounts` window, open Pidgin's main window (check the tray if Pidgin is minimized and not showing on the task bar) and click the 'Accounts &rarr; Manage Accounts' menu item or press <kbd>Ctrl</kbd> + <kbd>A</kbd> on Windows.
 
+Registering new XMPP accounts is easy but it requires that you create the account with a server that allows open registrations.
+
 From the `Accounts` window click `Add` and the `Add Account` window opens:
 
-![Pidgin Add Account window](img/add-account.png)
+![Add Account window](img/add-account.png)
 
-Complete the main form on the `Basic` tab:
+> ### IMPORTANT
+>
+> To register a new account, make sure you tick the `Create this new account on the server` check mark at the bottom of the `Basic` tab, otherwise Pidgin will only try to log in with the information you provide, which might result in an error if the account does not exist on the server.
 
-1. **Protocol**: select `XMPP`
-2. **Username**: enter your username (the part before the `@` sign from the complete user ID, for example `me` from the ID `me@somedomain.com`).
-3. **Domain**: enter the domain name from your ID (the part after the `@` sign, for example `somedomain.com` from the ID `me@somedomain.com`)
-4. **Resource** (optional): enter a name you would like to give to your current resource, such that multiple logins to the same XMPP account from different devices, can be distinguished if necessary. For example `Home PC` or `Smartphone`.
-5. **Password**: enter your account's password.
-6. **Local alias** (optional): this custom alias appears in chat logs and can be used to specify a shorter name for how your messages appear in local chat logs, so this is only visible to you. For example `Me`, instead of `your_complete_username`.
+Complete the `Login Options` form:
+
+1. **Protocol** (required): select `XMPP` from the dropdown list.
+2. **Username** (required): enter your desired username (the part before the `@` sign from the complete user ID, for example `me` from the ID `me@some-server.com`).
+3. **Domain** (required): enter the domain name of the XMPP server you wish to register with (the part after the `@` sign, for example `some-server.com` from the ID `me@some-server.com`)
+4. **Resource** (optional): enter a custom name you would like to give to your current `resource`, a simple string that uniquely identifies multiple logins to the same XMPP account, for example from different devices (`Home PC`, `iPhone`, etc).
+5. **Password** (required): enter the password you would like to register your account with.
+6. **Remember password** (optional): tick this check mark if you don't want to be asked for your password every time you restart Pidgin or log out and back in again.
+
+Optionally, you can also complete the User Options form:
+
+1. **Local alias** (optional): this custom alias appears in chat logs and can be used to specify a shorter name for how your messages appear in local chat logs, so this is only visible to you. For example `Me`, instead of `your_complete_username`.
+
+Now tick the `Create this new account on the server` check mark at the bottom if you haven't already done so.
+
+Click the `Add` button and Pidgin should automatically log in your account. If successful, you should see an empty buddy list and your status set to `Available`.
+With some servers you can sometimes see a bot was added to your buddy list by default, usually to send you a welcome message or to provide help.
+
+![Buddy List](img/buddy-list.png)
 
 ### Log into an existing account
 
