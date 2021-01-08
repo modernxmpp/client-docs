@@ -98,6 +98,7 @@ Optionally, you can also complete the `User Options` form:
 
 1. **Local alias** (optional): this custom alias appears in chat logs and can be used to specify a shorter name for how your messages appear in local chat logs, so this is only visible to you. For example `Me`, instead of `your_complete_username`.
 
+<a name="create-this-new-account-on-the-server"></a>
 Tick the `Create this new account on the server` check mark at the bottom if you haven't already done so.
 
 Finally, click the `Add` button and Pidgin should automatically log in your account.
@@ -111,7 +112,7 @@ To find out more about adding contacts to your buddy list, head to the [How to a
 
 ### Log into an existing account
 
-To be continued...
+Logging in to an existing account is similar to [registering a new account](#register-an-account). The difference is that you must have an existing account and you must not tick the [`Create this new account on the server`](#create-this-new-account-on-the-server) check mark.
 
 ### How to add a new contact
 
