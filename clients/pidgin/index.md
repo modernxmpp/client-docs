@@ -101,7 +101,7 @@ Optionally, you can also complete the `User Options` form:
 <a name="create-this-new-account-on-the-server"></a>
 Tick the `Create this new account on the server` check mark at the bottom if you haven't already done so.
 
-Finally, click the `Add` button and Pidgin should automatically log in your account.
+Finally, click the `Add` button and Pidgin should automatically request the creation of your account with the server and then log you in.
 
 If successful, you should see an empty buddy list and your status set to `Available`.
 
