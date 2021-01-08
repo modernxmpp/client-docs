@@ -94,14 +94,17 @@ Complete the `Login Options` form:
 5. **Password** (required): enter the password you would like to register your account with.
 6. **Remember password** (optional): tick this check mark if you don't want to be asked for your password every time you restart Pidgin or log out and back in again.
 
-Optionally, you can also complete the User Options form:
+Optionally, you can also complete the `User Options` form:
 
 1. **Local alias** (optional): this custom alias appears in chat logs and can be used to specify a shorter name for how your messages appear in local chat logs, so this is only visible to you. For example `Me`, instead of `your_complete_username`.
 
-Now tick the `Create this new account on the server` check mark at the bottom if you haven't already done so.
+Tick the `Create this new account on the server` check mark at the bottom if you haven't already done so.
 
-Click the `Add` button and Pidgin should automatically log in your account. If successful, you should see an empty buddy list and your status set to `Available`.
+Finally, click the `Add` button and Pidgin should automatically log in your account.
+
+If successful, you should see an empty buddy list and your status set to `Available`.
 With some servers you can sometimes see a bot was added to your buddy list by default, usually to send you a welcome message or to provide help.
+To find out more about adding contacts to your buddy list, head to the [How to add a new contact](#how-to-add-a-new-contact) section.
 
 ![Buddy List](img/buddy-list.png)
 
