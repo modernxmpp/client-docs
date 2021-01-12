@@ -12,6 +12,7 @@
     - [How to add a new contact](#how-to-add-a-new-contact)
     - [Start a chat with a contact](#start-a-chat-with-a-contact)
     - [Share a picture, video or voice message](#share-a-picture-video-or-voice-message)
+      - [Send a file](#send-a-file)
     - [Share your current location with a contact](#share-your-current-location-with-a-contact)
     - [Create a group chat](#create-a-group-chat)
     - [Find public community chats](#find-public-community-chats)
@@ -150,11 +151,43 @@ Optionally, click and enable the **Buddies &rarr; Show &rarr; Buddy Details** me
 
 ### Start a chat with a contact
 
-To be continued...
+To start a new chat with someone, locate the corresponding contact in Pidgin's Buddy List, double click it and a new conversation window will appear:
+
+![New conversation window](img/new-conversation.png)
+
+Notice the local alias we were talking about in the [Register an account](#register-an-account) section.
+There, we set it to "Me". In the above screenshot you can see how that would appear in a chat.
+
+Some useful tips:
+
+- XMPP allows you to send messages to offline contacts as well as receive messages from offline contacts. Sometimes you might want to hide your online status and not just appear as `Away` or `Busy`. To open a chat to an offline contact, you need to show offline contacts first, by enabling the **Buddies &rarr; Show &rarr; Offline Buddies** menu item from the Buddies List window.
+- If you have a very long contacts list, you can search a contact by name just by typing in the Buddy List window. You don't need to select anything. A search box will appear as soon as you start typing and the selection in the Buddy List will jump to the nearest match. If the selected contact matches your request, pressing `Enter` will open a new chat window for the selected contact and close the search. Press `Esc` to cancel the search at any time.
 
 ### Share a picture, video or voice message
 
-To be continued...
+> ### Quick info
+>
+> The capability to send media like pictures, video files and voice messages, depends on the XMPP server's provider.
+>
+> Providing services like hosting for image files, audio files or video files can be very expensive. Not all XMPP chat servers offer these services, especially some of the free ones.
+>
+> These limitations might seem like they are not working in XMPP's favor, but this is the main reason why other similar instant messaging services are free and XMPP might not be: other services make money by mining and selling your personal information (and in exchange you get free file transfers and sharing).
+>
+> If you take privacy seriously but you still want advanced media capabilities, you can look at paid XMPP services or you can run your own XMPP server (it's actually not that hard to find a host).
+
+Pidgin does not have advanced video or voice chats functionality built in like some other IM clients. It can send files though.
+
+#### Send a file
+
+To send a file to a contact, any file (picture, video, audio, etc.), you can right-click a contact in your Buddy List and choose **Send File...**, or in a chat window open the **Conversation** menu and click **Send File...** from there:
+
+![Conversation menu](img/conversation-menu.png)
+
+Pidgin can also send inline images and links. Press the `Insert` button right above the message input box in a chat window:
+
+![Insert media dropdown](img/insert-media-dropdown.png)
+
+Sending images this way depends on the server's capabilities, so the **Image** option might appear as disabled.
 
 ### Share your current location with a contact
 
