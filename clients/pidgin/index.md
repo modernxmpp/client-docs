@@ -191,12 +191,53 @@ Sending images this way depends on the server's capabilities, so the **Image** o
 
 ### Share your current location with a contact
 
-To be continued...
+Besides manually sending someone a message with a link to a web page, for example to a place on Google Maps, Pidgin has no built-in way of sharing location with a contact.
 
 ### Create a group chat
 
-To be continued...
+To create (or join) a group chat, you first need to create a chat room. Click the **Buddies &rarr; Add Chat...** menu item.
+
+The `Add Chat` window opens:
+
+![Add Chat window](img/add-chat.png)
+
+In this window you are only required to specify a friendly name for the chat room that you are creating and then you can press `Add` to have the room created and added to your buddy list. You'll then have to double click the new room in your buddy list to see it.
+
+After the room is created, you can invite your contacts to join it by either clicking the **Conversation &rarr; Invite...** menu item and entering their ID or by dragging them from the buddy list to your new room window.
+
+You can also message anyone with the room's address. The room's address is simply made up of the room's name, which you just entered, followed by the `@` symbol and the server's address. For example `dailystandup@groups.superxmpp.com`.
+
+Here is what a new group chat window will look like:
+
+![Group Chat window](img/chat-room-window.png)
+
+On the `Add Chat` window there are a few more settings you might be interested in:
+
+- You can specify a password so random people can't join.
+- You can change your handle or nickname as it appears in the room.
+- You can change the room's alias, as it appears in your contacts list.
+- You can choose to rejoin the room as soon as you log in to your account.
+- And you can choose to remain in the chat room even if you close the room's window. That way you can still get notifications when new messages are posted in the room.
+
+You can also join other rooms without knowing their name first.
+That is what the `Room List` button is for.
+
+For a simpler way to join or create a room, you can click the **Buddies &rarr; Join a chat...** menu item. If the room you specify doesn't already exist, it will be created automatically. The message window will open immediately this way but you won't remain in the room once you close this window and you won't see it in your buddy list. This is a simpler way to create a group chat, meant for temporary rooms which should disappear once everybody has left.
+
+Some server's give you the option to make a room permanent. The room won't be deleted after you log out and will retain message history on the server. If you're OK with that, after you've created a room using the first method above, right click it in your buddy list and choose `Persistent`.
 
 ### Find public community chats
 
-To be continued...
+Since group chats in XMPP are based on the concept of rooms, it's is only natural that this can lead to communities centered around a room.
+
+To find public community chats, you do like before, with creating a new group chat by clicking the **Buddies &rarr; Add Chat...** menu item, but now you click the `Room List` button instead.
+
+You are presented with a window asking you to enter a conference server address. That is the part after the `@` sign in a group chat room's address. The default address will be filled in, which is your current server's address.
+
+![Enter conference server address window](img/enter-conference-server-window.png)
+
+You can leave the default server address or enter another server. After that, you press `Find Rooms` and you will see the `Room List` window showing a list of rooms available on the server:
+
+![Room list window](img/room-list-window.png)
+
+Pick any room and click `Join` to join the community chat.
