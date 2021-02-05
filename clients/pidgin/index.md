@@ -128,7 +128,7 @@ The `Add Buddy` window opens:
 Complete the required fields:
 
 - **Account**: if you're logged in to multiple accounts, select which one to add your contact to.
-- **Buddy's username**: enter your contact's complete user ID. If they're using the same server as the currently selected account, you can omit the server name and enter just the user name (only the part on the left of the `@` sign).
+- **Buddy's username**: enter your contact's complete XMPP user ID. This looks like an email address and sometimes can actually be the same as the person's email address. For example kerry.`stafford@superxmpp.com`.
 - **Alias** (optional): enter an alias for your contact, if you prefer a shorter or more distinct name for your contact.
 - **Add buddy to group**: select an existing group from the dropdown list or enter a new group name to create a new group for this contact.
 
